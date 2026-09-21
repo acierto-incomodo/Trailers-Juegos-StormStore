@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Usamos un CDN (jsDelivr) para acceder a los archivos del repositorio
   // con las cabeceras correctas y evitar problemas en GitHub Pages.
   const GITHUB_USER = "acierto-incomodo";
-  const REPO_NAME = "StormStore";
+  const REPO_NAME = "Trailers-Juegos-StormStore";
   const BRANCH = "main";
   const FILE_BASE_URL = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}@${BRANCH}/`;
 
