@@ -303,7 +303,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const GITHUB_USER = "acierto-incomodo";
     const REPO_NAME = "Trailers-Juegos-StormStore";
     const BRANCH = "main";
-    const FILE_BASE_URL = `https://cdn.jsdelivr.net/gh/${GITHUB_USER}/${REPO_NAME}@${BRANCH}/`;
+    const FILE_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}@${BRANCH}/`;
 
     // Función para obtener el icono basado en el tipo de archivo
     function getIconClass(type) {
